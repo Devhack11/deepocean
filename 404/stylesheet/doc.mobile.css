@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1024px)
+{   
+.content-section-article
+{
+      width: 100%;
+      height: auto;      
+}      
+.content-section-article
+h5
+{
+      font-size: 80px;
+      font-weight: 900;
+      padding: 15px 0 0;    
+}
+.content-section-article
+svg 
+{          
+      width: 100%;
+      height: auto;
+      position: absolute;       
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-article
+{
+      width: 100%;
+      height: 100vh;      
+}
+.content-section-article
+h5
+{          
+      font-size: 200px;
+}
+.content-section-article
+svg 
+{           
+      width: 100%;
+      height: 90%;
+}
+}

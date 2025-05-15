@@ -1,0 +1,82 @@
+/* контент хэсэг дээвэр */
+.content-section-top
+.beam-shape:nth-of-type(2) 
+{     
+      transform: rotate(20deg);
+      -o-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+      -webkit-transform: rotate(20deg);
+}
+.content-section-top
+.beam-shape:nth-of-type(3) 
+{  
+      transform: rotate(40deg);
+      -o-transform: rotate(40deg);
+      -ms-transform: rotate(40deg);
+      -moz-transform: rotate(40deg);
+      -webkit-transform: rotate(40deg);
+}
+.content-section-top
+.beam-shape:nth-of-type(4) 
+{     
+      transform: rotate(60deg);
+      -o-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      -moz-transform: rotate(60deg);
+      -webkit-transform: rotate(60deg);
+}
+.content-section-top
+.beam-shape:nth-of-type(5) 
+{    
+      transform: rotate(80deg);
+      -o-transform: rotate(80deg);
+      -ms-transform: rotate(80deg);
+      -moz-transform: rotate(80deg);
+      -webkit-transform: rotate(80deg);
+}
+.content-section-top
+.beam-shape:nth-of-type(6) 
+{     
+      transform: rotate(80deg);
+      -o-transform: rotate(80deg);
+      -ms-transform: rotate(80deg);
+      -moz-transform: rotate(80deg);
+      -webkit-transform: rotate(80deg);
+}
+.content-section-top
+.beam-shape:nth-of-type(7) 
+{      
+      transform: rotate(100deg);
+      -o-transform: rotate(100deg);
+      -ms-transform: rotate(100deg);
+      -moz-transform: rotate(100deg);
+      -webkit-transform: rotate(100deg);      
+}
+.content-section-top
+.beam-shape:nth-of-type(8) 
+{   
+      transform: rotate(120deg);
+      -o-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
+      -webkit-transform: rotate(120deg);      
+}
+.content-section-top
+.beam-shape:nth-of-type(9) 
+{     
+      transform: rotate(140deg);
+      -o-transform: rotate(140deg);
+      -ms-transform: rotate(140deg);
+      -moz-transform: rotate(140deg);
+      -webkit-transform: rotate(140deg);      
+}
+.content-section-top
+.beam-shape:nth-of-type(10) 
+{     
+      transform: rotate(160deg);
+      -o-transform: rotate(160deg);
+      -ms-transform: rotate(160deg);
+      -moz-transform: rotate(160deg);
+      -webkit-transform: rotate(160deg);      
+}

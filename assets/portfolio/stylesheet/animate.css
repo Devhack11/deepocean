@@ -1,0 +1,204 @@
+/* контент хэсэг унших */
+@keyframes loader-animate
+{
+0% 
+{
+      transform: translateY(0);
+}
+100% 
+{
+      transform: translateY(-5px);
+}
+}
+@-moz-keyframes loader-animate
+{
+0% 
+{
+      transform: translateY(0);
+}
+100% 
+{
+      transform: translateY(-5px);
+}
+}
+@-webkit-keyframes loader-animate
+{
+0% 
+{
+      transform: translateY(0);
+}
+100% 
+{
+      transform: translateY(-5px);
+}
+}
+@keyframes loader-animate-a
+{
+0% 
+{
+      transform: translateX(0px);
+}
+100% 
+{
+      transform: translateX(-50px);
+}
+}
+@-moz-keyframes loader-animate-a
+{
+0% 
+{
+      transform: translateX(0px);
+}
+100% 
+{
+      transform: translateX(-50px);
+}
+}
+@-webkit-keyframes loader-animate-a
+{
+0% 
+{
+      transform: translateX(0px);
+}
+100% 
+{
+      transform: translateX(-50px);
+}
+}
+@keyframes loader-animate-b
+{
+0% 
+{
+      transform: translateX(-50px) translateY(-1px);
+}
+100% 
+{
+      transform: translateX(0) translateY(-1px);
+}
+}
+@-moz-keyframes loader-animate-b
+{
+0% 
+{
+      transform: translateX(-50px) translateY(-1px);
+}
+100% 
+{
+      transform: translateX(0) translateY(-1px);
+}
+}
+@-webkit-keyframes loader-animate-b
+{
+0% 
+{
+      transform: translateX(-50px) translateY(-1px);
+}
+100% 
+{
+      transform: translateX(0) translateY(-1px);
+}
+}
+/*
+@keyframes loader-boat
+{
+0%, 100% 
+{
+      transform: rotate(10deg);
+}
+50% 
+{
+      transform: rotate(-15deg);
+}
+}
+@-webkit-keyframes loader-boat
+{
+0%, 100% 
+{
+      transform: rotate(10deg);
+}
+50% 
+{
+      transform: rotate(-15deg);
+}
+}
+*/
+
+
+
+/* контент хэсэг сэдэв */
+@keyframes article-animate
+{
+0% 
+{
+      stroke-dashoffset: 0;
+      transform: translate3d(0, 0, 0);
+}
+100% 
+{
+      stroke-dashoffset: -133;
+      transform: translate3d(-90px, 0, 0);
+}
+}
+@-moz-keyframes article-animate
+{
+0% 
+{
+      stroke-dashoffset: 0;
+      transform: translate3d(0, 0, 0);
+}
+100% 
+{
+      stroke-dashoffset: -133;
+      transform: translate3d(-90px, 0, 0);
+}
+}
+@-webkit-keyframes article-animate
+{
+0% 
+{
+      stroke-dashoffset: 0;
+      transform: translate3d(0, 0, 0);
+}
+100% 
+{
+      stroke-dashoffset: -133;
+      transform: translate3d(-90px, 0, 0);
+}
+}
+
+
+
+/* контент хэсэг хайрцаг */
+@keyframes box-animate
+{
+0% 
+{
+      background-position: -40px;
+}
+30%, 100% 
+{
+      background-position: 128px;
+}
+}
+@-moz-keyframes box-animate
+{
+0% 
+{
+      background-position: -40px;
+}
+30%, 100% 
+{
+      background-position: 128px;
+}
+}
+@-webkit-keyframes box-animate
+{
+0% 
+{
+      background-position: -40px;
+}
+30%, 100% 
+{
+      background-position: 128px;
+}
+}

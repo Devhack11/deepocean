@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+
+*
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+html,
+body 
+{
+      width: 100%;
+      height: 100%;     
+      background-color: #fff;      
+}
+
+
+
+.content-section-article
+{
+      width: 100%;
+      height: 100vh;      
+}
+.content-section-article
+a
+{
+      color: #999;      
+      padding: 0 50px;      
+      font-size: 11px;      
+      position: relative;
+      letter-spacing: 1px;            
+      display: inline-block;      
+      text-transform: uppercase;      
+
+      font-family: 'Secular One', san-serif;
+}
+.content-section-article
+a:hover
+{      
+      color: #444;
+      text-decoration: none;
+}
+.content-section-article
+a.article-underline:after 
+{
+	content: '';      
+      opacity: 0;
+      left: 70px;      
+      width: 25%;
+      height: 15px;
+      margin-top: 5px;
+      position: absolute;
+      display: inline-block;
+      border-bottom: 1px solid;
+
+      transform: scale(0,1);
+	-webkit-transform: scale(0,1);
+
+	transition: opacity 0.35s, transform 0.35s;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	
+}
+.content-section-article
+a.article-underline:hover:after 
+{
+      opacity: 1;
+	
+	transform: scale(1);
+      -webkit-transform: scale(1);
+}
+.content-section-article
+i
+{
+      color: #444;
+      font-size: 12px;
+      padding-right: 4px;
+}
+.content-section-article
+h5
+{        
+      opacity: 0;
+      color: #444;
+      font-size: 300px;
+      font-weight: 900;
+      padding: 50px 0 0;
+      text-align: center;
+      text-transform: uppercase;
+
+      font-family: 'Secular One', san-serif;
+}
+.content-section-article
+svg 
+{      
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 80%;
+      position: absolute;       
+}

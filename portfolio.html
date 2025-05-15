@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+
+
+
+
+
+<head>
+
+<title>Deep Ocean | Project</title>
+	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/logo/favicon.ico">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<link rel="stylesheet" href="assets/portfolio/stylesheet/doc.css">
+<link rel="stylesheet" href="assets/portfolio/stylesheet/doc.mobile.css">
+
+<link rel="stylesheet" href="assets/portfolio/stylesheet/animate.css">
+
+<link rel="stylesheet" href="assets/stylesheet/main.css">
+<link rel="stylesheet" href="assets/stylesheet/main.mobile.css">
+
+<link rel="stylesheet" href="assets/stylesheet/animate.css">
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+<!--контент хэсэг унших-->
+<section class="content-section-loader" id="content-section-loader">
+<aside class="loader-container">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <g class="loader-item">     
+          <!--
+	      <path class="loader-boat" d="M43.7,25.8h-3c-0.6,0-1.1-0.3-1.4-0.8l-3-5.4c-0.3-0.5-0.8-0.8-1.4-0.8h-1.1c-0.7,0-1.3-0.4-1.5-1.1l-0.9-2.6 c-0.2-0.6-0.8-1.1-1.5-1.1H15.6c-0.9,0-1.6,0.7-1.6,1.6v2.2c0,0.5-0.4,0.9-0.9,0.9c-0.4,0-0.8-0.3-0.9-0.7l-0.2-0.9 c-0.2-0.9-1.1-1.6-2-1.6H9.3c-0.8,0-1.5,0.7-1.5,1.5v9.4c-1.2-0.6-2.6,0.5-2.3,1.8l2.9,10.4c0.4,1.3,1.5,2.2,2.9,2.2h24 c0.7,0,1.3-0.3,1.7-0.9l8-11.8C45.8,27.3,45,25.8,43.7,25.8z M15.5,25c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5 c0.8,0,1.5,0.7,1.5,1.5C17,24.3,16.3,25,15.5,25z M23.5,25c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5 C25,24.3,24.3,25,23.5,25z M31.5,25c-0.8,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.8,0,1.5,0.7,1.5,1.5C33,24.3,32.3,25,31.5,25z"/>     
+          -->
+		  <g class="loader-animate">
+          <path class="loader-mask" d="M141.4,35.7c-0.5,0-0.6-0.1-1.5-0.8c-1.2-1-3-2.5-6.2-2.5c-2.9,0-4.9,1.3-6.3,2.3c-1.1,0.8-1.6,1.1-2.5,1.1	c-0.7,0-1-0.2-2-1c-1.3-1-3.2-2.4-6.3-2.4c-3.2,0-5,1.5-6.1,2.4c-0.9,0.7-1.1,0.9-1.9,0.9c-0.8,0-1.1-0.2-2.1-0.9 c-1.3-1-3.2-2.4-6.5-2.4c-3.3,0-5.3,1.4-6.7,2.4c-1,0.7-1.4,1-2.1,1c-0.6,0-0.7-0.1-1.5-0.8c-1.1-0.9-2.8-2.5-6-2.5 c-2.9,0-4.6,1.3-5.9,2.2c-1,0.8-1.6,1.1-2.9,1.1c-1.1,0-1.4-0.2-2.3-1c-1.1-0.9-2.8-2.4-5.9-2.4c-3.2,0-4.9,1.5-6.1,2.5 c-0.9,0.7-1.1,0.9-1.9,0.9c-0.8,0-1-0.2-1.8-0.8c-1.3-1-3.2-2.5-7-2.5c-3.2,0-5.1,1.3-6.6,2.3c-1.1,0.7-1.5,1-2.2,1 c-0.6,0-0.6,0-1.4-0.7c-1.1-0.9-2.9-2.5-6.3-2.5c-3.2,0-5,1.3-6.3,2.2c-1,0.7-1.3,0.9-2.3,0.9c-1,0-1.4-0.3-2.3-1	c-1.2-0.9-3.1-2.2-6.2-2.2c-3.1,0-5.1,1.4-6.5,2.3c-1,0.7-1.3,0.9-1.8,0.9c-0.5,0-0.8-0.2-1.7-0.9c-1.3-0.9-3.3-2.3-6.5-2.3V50h150 V32.3c-3.5,0-5.5,1.5-6.9,2.5C142.2,35.5,141.9,35.7,141.4,35.7z"/>
+          <path class="animate-a" d="M0,36c4,0,4.9,3.2,8.2,3.2s4.3-3.2,8.2-3.2s4.3,3.2,8.5,3.2s4.5-3.2,8.6-3.2s3.9,3.2,7.7,3.2s4.7-3.4,8.8-3.3 c4.9,0,4.8,3.3,8.8,3.3s4.1-3.3,7.9-3.3c3.8,0,3.6,3.3,8.2,3.3s5.1-3.3,8.8-3.3s3.7,3.3,7.5,3.3s4.5-3.3,8.8-3.3s4.4,3.3,8.6,3.3 c4.2,0,4.2-3.3,8.1-3.3c3.9,0,4.5,3.3,8.3,3.3c3.8,0,5-3.3,8.8-3.3s4.1,3.3,7.7,3.3c3.6,0,4.2-3.3,8.6-3.3"/>
+          </g>
+          <path class="animate-b" d="M0,48.4c4,0,4.9-3.2,8.2-3.2s4.3,3.2,8.2,3.2s4.3-3.2,8.5-3.2s4.5,3.2,8.6,3.2s3.9-3.2,7.7-3.2 s4.7,3.4,8.8,3.3c4.9,0,4.8-3.3,8.8-3.3s4.1,3.3,7.9,3.3c3.8,0,3.6-3.3,8.2-3.3s5.1,3.3,8.8,3.3s3.7-3.3,7.5-3.3s4.5,3.3,8.8,3.3 s4.4-3.3,8.6-3.3c4.2,0,4.2,3.3,8.1,3.3c3.9,0,4.5-3.3,8.3-3.3c3.8,0,5,3.3,8.8,3.3s4.1-3.3,7.7-3.3c3.6,0,4.2,3.3,8.6,3.3"/>
+          </g>
+          </svg>
+</aside>
+</section>   
+
+
+
+
+
+
+<!--контент хэсэг чиглүүлэгч-->
+<section class="content-section-navigation">
+          <span class='navigation-open'>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          </span>
+          <span class="navigation-close">
+          <i class="fa fa-times" aria-hidden="true"></i>
+          </span>
+<aside class="navigation-container" id="navigation-container">
+<aside class="navigation-column">
+<aside class="column-a">    
+<nav class="navigation-box navigation-list">
+<ul>
+          <li>
+          <a href="" class="active">
+          Highlight
+          </a>
+          </li>
+          <li>
+          <a href="index.html" class="navigation-button">          
+          Main     
+          </a>          
+          </li>
+          <li>
+          <a href="home.html" class="navigation-button" target="_blank">
+          Home
+          </a>
+          </li>
+          <li>
+          <a href="about.html" class="navigation-button">
+          Me
+          </a>
+          </li>
+          <li>
+          <a href="portfolio.html" class="navigation-button">
+          Portfolio
+          </a>
+          </li>   
+          <li>
+          <a href="404.html" class="navigation-button" target="_blank">
+          Blog
+          </a>
+          </li>          
+          <hr>
+          <li class="contact-list">
+          <a href="https://www.facebook.com/Enkhbayar.Bymbajav" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+          Facebook
+          </a>
+          </li>
+          <li class="contact-list">          
+          <a href="http://m.me/Enkhbayar.Bymbajav" target="_blank">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          Messenger
+          </a>
+          </li>      
+          <li class="contact-list">
+          <a href="mailto: githubhelp11@gmail.com">
+          <i class="fa-regular fa-envelope"></i>
+          Mail
+          </a>
+          </li>
+</ul>          
+</nav>
+</aside>
+<aside class="column-b">
+          <img src="assets/img/navigation/navigation-banner.jpg" alt="navigation-image">
+</aside>
+</aside>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг спан-->
+<section class="content-section-span">
+<aside class="span-container">
+          <h4 class="span-a">
+          Web Project
+          </h4>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг сэдэв-->
+<section class="content-section-article">
+<aside class="article-container">      
+<article class="article-heading">       
+          <span>          
+          <strong>
+          01.
+          </strong>  
+          Hulegu Travel
+          </span>               
+          <br>
+          <svg viewBox="5 0 80 60">
+          <path class="animate-wave" fill="none" stroke="#3456da" stroke-width="4" stroke-linecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" $=1$=010.0" />
+          </svg>                
+</article>
+<aside class="article-box">
+<article class="box-a">
+          <a href="hulegu-travel/index.html" target="_blank">
+          <img src="assets/icon/article/article-02.png" alt="article-icon">     
+          <h5>          
+          live
+          </h5>
+          </a>
+</article>
+<article class="box-b">
+          <h6>
+          Industry
+          </h6>    
+          <p>
+          Tourism and Travel
+          </p> 
+</article>
+<article class="box-c">
+          <h6>
+          date published
+          </h6>
+          <p>
+          2021
+          </p>
+</article>
+<article class="box-d">
+          <h6>
+          Expired
+          </h6>
+          <p>
+          Yes
+          </p>
+</article> 
+</aside>
+</aside>
+</section>
+<!--контент хэсэг хөзөр-->
+<section class="content-section-card">
+<aside class="card-container">
+<aside class="card-box" id="card-scroll">
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-01.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-02.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-03.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-04.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-05.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-06.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-07.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-08.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-09.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/hl-10.PNG" alt="card-image">
+</aside>
+          <span class="card-item"></span>
+</aside>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг завсар-->
+<section class="content-section-gap"></section>
+
+
+
+
+
+
+<!--контент хэсэг сэдэв-->
+<section class="content-section-article">
+<aside class="article-container">
+<article class="article-heading">  
+          <span>          
+          <strong>
+          02.
+          </strong>  
+          Dreamway Education Center
+          </span>               
+          <br>
+          <svg viewBox="5 0 80 60">
+          <path class="animate-wave" fill="none" stroke="#3456da" stroke-width="4" stroke-linecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" $=1$=010.0" />
+          </svg>   
+</article>
+<aside class="article-box">
+<article class="box-a">    
+          <a href="dreamway/home.html" target="_blank">
+          <img src="assets/icon/article/article-02.png" alt="article-icon">      
+          <h5>          
+          live
+          </h5>
+          </a>
+</article>
+<article class="box-b">
+          <h6>
+          Industry
+          </h6>
+          <p>
+          Education and Training
+          </p>
+</article>
+<article class="box-c">
+          <h6>
+          Date Published
+          </h6>
+          <p>
+          2022
+          </p>
+</article>
+<article class="box-d">
+          <h6>
+          Expired
+          </h6>
+          <p>
+          Yes
+          </p>
+</article>   
+</aside>
+</aside>
+</section>
+<!--контент хэсэг хөзөр-->
+<section class="content-section-card">
+<aside class="card-container">
+<aside class="card-box" id="card-scroll">
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-01.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-02.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-03.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-04.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-05.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-06.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-07.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-08.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/dm-09.PNG" alt="card-image">
+</aside>
+          <span class="card-item"></span>
+</aside>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг завсар-->
+<section class="content-section-gap"></section>
+
+
+
+
+
+
+<!--контент хэсэг сэдэв-->
+<section class="content-section-article">
+<aside class="article-container">
+<article class="article-heading">  
+          <span>          
+          <strong>
+          03.
+          </strong>  
+          Sod Tour
+          </span>               
+          <br>
+          <svg viewBox="5 0 80 60">
+          <path class="animate-wave" fill="none" stroke="#3456da" stroke-width="4" stroke-linecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" $=1$=010.0" />
+          </svg> 
+</article>
+<aside class="article-box">
+<article class="box-a">    
+          <a href="sod-tour/index.html" target="_blank">
+          <img src="assets/icon/article/article-02.png" alt="article-icon">      
+          <h5>          
+          live
+          </h5>
+          </a>
+</article>
+<article class="box-b">
+          <h6>
+          Industry
+          </h6>
+          <p>
+          Tourism and Travel
+          </p>
+</article>
+<article class="box-c">
+          <h6>
+          Date Published
+          </h6>
+          <p>
+          2023
+          </p>
+</article>
+<article class="box-d">
+          <h6>
+          Expired
+          </h6>
+          <p>
+          None
+          </p>
+</article>    
+</aside>
+</aside>
+</section>
+<!--контент хэсэг хөзөр-->
+<section class="content-section-card">
+<aside class="card-container">
+<aside class="card-box" id="card-scroll">
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-01.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-02.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-03.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-04.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-05.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-06.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-07.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-08.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-09.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-10.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-11.PNG" alt="card-image">
+</aside>
+<aside class="card-item">
+          <img src="assets/portfolio/assets/img/card/sd-12.PNG" alt="card-image">
+</aside>
+          <span class="card-item"></span>
+
+</aside>
+</aside>
+</section>
+
+
+
+<br>
+<br>
+<br>
+
+
+
+<!--контент хэсэг спан-->
+<section class="content-section-span">
+<aside class="span-container">
+          <h4 class="span-b">
+          UI UX Design
+          </h4>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг хайрцаг-->
+<section class="content-section-box">
+<aside class="box-container">
+          <h5>
+          <span>
+          01.  
+          </span>    
+          UI UX Design Build
+          </h5>
+<ul class="box-list">
+          <li>
+          Rectangular
+          </li>
+          <li>
+          Circular
+          </li>
+          <li>
+          Combinational
+          </li>
+          <li>
+          Combinational
+          </li>
+</ul>
+<aside class="box-article">          
+<article class="article-context">
+          <h6>
+          Sumit Pal
+          </h6>
+          <p>
+          UI & UX Design
+          </p>
+</article>          
+</aside>
+<ul class="box-background">
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>   
+          <li>
+          <img src="">
+          </li>       
+</ul>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг завсар-->
+<section class="content-section-gap"></section>
+
+
+
+
+
+
+<!--контент хэсэг хайрцаг-->
+<section class="content-section-box">
+<aside class="box-container">       
+          <h5>
+          <span>
+          02.  
+          </span>  
+          UI UX Design Build
+          </h5>
+<ul class="box-list">
+          <li>
+          Rectangular
+          </li>
+          <li>
+          Circular
+          </li>
+          <li>
+          Combinational
+          </li>
+          <li>
+          Combinational
+          </li>
+</ul>
+<aside class="box-article">          
+<article class="article-context">
+          <h6>
+          Sumit Pal
+          </h6>
+          <p>
+          UI & UX Design
+          </p>
+</article>          
+</aside>
+<ul class="box-background">
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>
+          <li>
+          <img src="">
+          </li>   
+</ul>
+</aside>
+</section>
+
+
+
+
+
+
+<!--контент хэсэг хөл-->
+<section class="content-section-footer">
+<aside class="footer-container">
+<aside class="logo-box">
+          <img src="assets/home/assets/logo/footer-logo.png" alt="footer-logo">      
+</aside>
+<ul>  
+          <li class="footer-address footer-padding">
+          <p>
+          Mongolia.&nbsp;Ulaaanbaatar.&nbsp;2023.&nbsp;&copy;  
+          </p>
+          </li>
+</ul>
+</aside>
+</section>
+
+
+
+
+
+
+
+<section class="content-section-progress">
+<aside class="progress-bar">
+          <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		  <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98">
+		  </svg>
+</aside>
+</section>
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f57c663122.js" crossorigin="anonymous"></script>
+
+<script src="assets/portfolio/javascript/app.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

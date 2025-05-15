@@ -1,0 +1,332 @@
+@media only screen and (max-width: 1024px) 
+{
+.content-section-navigation
+.navigation-container
+{          
+      width: 100%;
+      height: 100vh;            
+      background-color: #eee;
+}      
+.content-section-navigation
+.column-a
+{      
+      width: 98%;            
+      height: 94vh;            
+      margin-left: 4px;
+      border-radius: 30px;
+      background-color: #f9f9f9;
+      
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content-section-navigation
+.navigation-box
+{          
+      padding: 100px 20px;
+}
+.content-section-navigation
+.active
+{            
+      font-size: 10px;      
+}
+.content-section-navigation
+a 
+{          
+      font-size: 14px;   
+}
+.content-section-navigation
+.column-b
+{      
+      width: 100%;
+      float: none;
+      height: auto;      
+}
+.content-section-navigation
+.column-b
+img
+{      
+      display: none;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1900px) and (orientation: landscape) 
+{
+.content-section-navigation
+.column-a
+{      
+      width: 40%;      
+      height: 100vh;
+}      
+.content-section-navigation
+.column-b
+{      
+      width: 60%;      
+      height: 100vh;     
+}
+.content-section-navigation
+.column-b
+img
+{      
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+}
+
+
+
+/* контент хэсэг хайрцаг */
+@media only screen and (max-width: 1024px)
+{
+.content-section-box
+{
+      width: 100%;
+	  height: 600px;
+	  object-fit: contain;	  
+	
+	  background-position: center;
+	  background-image: url('assets/box/box-mobile.png');	  
+}
+.content-section-box
+.box-container
+{      
+      height: 100%;      
+      max-width: 100%;	  
+}
+.content-section-box
+svg
+{           
+	  top: 10%;
+      width: 80%;
+      height: auto;
+	  padding-left: 0%;
+}
+.content-section-box
+text
+{      	        
+	  fill: #fff;      
+}
+.content-section-box
+.box-grid
+{     
+	  top: 20%;
+	  width: 100%;      
+	  line-height: 60px;
+}
+.content-section-box
+.box-background
+{  	  	    	  
+	  margin: auto;
+	  display: flex;
+}
+.content-section-box
+img 
+{	  
+	  height: 30px;
+	  margin: auto;	  
+}
+.content-section-box
+a
+{	  	       	    
+	  color: #fff;
+	  font-size: 14px;	  
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1920px) and (orientation: landscape) 
+{
+.content-section-box
+svg
+{           
+      width: 100%;
+	  height: 200px;
+      padding-left: 25%;
+}
+.content-section-box
+.box-grid
+{      
+	  width: 100%;
+      bottom: 33%;
+	  height: 200px;
+}
+}
+
+
+
+/* контент хэсэг тор */
+@media only screen and (max-width: 1024px)
+{
+.content-section-grid
+{	  
+	  width: 100%;
+	  height: auto;	  
+}
+.content-section-grid
+.grid-container
+{      
+      width: 100%;      
+      
+}
+.content-section-grid
+.grid-item
+{
+ 	  width: 100%;
+	  height: auto;
+}	
+.content-section-grid
+.grid-background
+{
+	  padding-top: 0;
+	  grid-template-rows: repeat(5, 60px);
+      grid-template-columns: repeat(2, 50vw);
+}
+.content-section-grid
+.grid-a
+{
+	  width: 40px;
+	  margin-top: 50px;
+}
+.content-section-grid
+.grid-b
+{
+	  width: 100px;	  
+	  margin-top: 50px;
+}
+.content-section-grid
+.grid-c
+{
+	  width: 30px;	  
+	  margin-top: 40px;
+	  margin-left: 50px;
+}
+.content-section-grid
+.grid-d
+{
+	  width: 80px;
+	  margin-top: 80px;	  
+}
+.content-section-grid
+.grid-e
+{
+	  width: 150px;	  
+	  margin-top: 80px;
+}
+.content-section-grid
+.grid-f
+{
+	  width: 150px;
+	  margin-top: 120px;
+	  margin-left: 50px;
+}
+.content-section-grid
+.grid-g
+{
+	  width: 40px;	  
+	  margin-top: -20px;
+	  margin-left: 120px;
+}
+.content-section-grid
+.grid-h
+{
+	  width: 60px;	  
+	  margin-top: -80px;
+	  margin-left: 90px;
+}
+.content-section-grid
+.grid-i
+{
+	  width: 80px;	  
+	  margin-top: 40px;
+}
+.content-section-grid
+.grid-j
+{
+	  width: 40px;
+	  margin-top: 50px;
+}
+}
+
+
+
+/* контент хэсэг хөгжим */
+@media only screen and (max-width: 1024px)
+{
+.content-section-bottom
+.bottom-submersible
+{      
+      bottom: 3%; 
+
+      animation-duration: 5s;
+      -webkit-animation-duration: 5s;
+}
+.bottom-player
+{                 
+      display: none;
+}
+.content-section-bottom
+img
+{
+      width: 30px;      
+}
+@keyframes submersible-animate
+{
+0% 
+{
+      left: 5%;
+}
+48% 
+{
+      -webkit-transform: rotateY(0deg); 
+}
+50% 
+{
+      left: calc(90% - 100px);
+      -webkit-transform: rotateY(180deg); 
+}
+98% 
+{
+      -webkit-transform: rotateY(180deg); 
+}
+100% 
+{
+      left: 5%;
+      -webkit-transform: rotateY(0deg);
+}
+}
+}
+
+
+
+/* контент хэсэг зохиогч */
+@media only screen and (max-width: 1024px)
+{
+.content-section-copyright
+{
+      width: 100%;
+      height: auto;
+}
+.content-section-copyright
+.copyright-container
+{          
+      width: 100%;
+      height: auto;
+}
+.content-section-copyright
+ul
+{          
+      padding: 0 8px;  
+}
+.content-section-copyright
+a
+{         
+      padding: 0;
+}
+.content-section-copyright
+i:before 
+{         
+      font-size: 12px;      
+}
+.content-section-copyright
+h5
+{             
+      font-size: 10px;
+      padding: 8px 8px;
+}
+}

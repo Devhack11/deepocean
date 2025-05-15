@@ -1,0 +1,501 @@
+/* контент хэсэг зураг */
+.content-section-photograph
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-photograph
+.photograph-container
+{                    
+      margin: auto;
+      height: 330px;
+      display: flex;
+      max-width: 25%;
+      align-items: center;       
+}
+.content-section-photograph
+.photograph-item
+{      
+      width: 150px;
+      height: 150px;      
+      position: relative;
+      border-radius: 50%;          
+      background-size: cover;      
+      background-color: #dddddd;
+      background-position: center;
+      background-repeat: no-repeat;      
+      box-shadow: 0 0 100px 10px #bbb;            
+      background-image: url("assets/img/photograph/photograph-small-01.png");
+}
+.content-section-photograph
+.photograph-animation
+{      
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      animation: photograph-animate 120s infinite linear;
+}
+.content-section-photograph
+span 
+{      
+      top: -35px;
+      width: 10.5px;
+      height: 110px;
+      display: block;
+      font-size: 10px;      
+      font-weight: 500;
+      position: absolute;
+      left: calc(50% - 3.75px);
+      text-transform: lowercase;
+      transform-origin: bottom center;
+}
+
+
+
+/* контент хэсэг гарчиг */
+.content-section-headline
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-headline
+.headline-container
+{
+      margin: auto;
+      height: 120px;
+      max-width: 30%;      
+}
+.content-section-headline
+h5
+{           
+      font-size: 15px;
+      font-weight: 500;      
+      font-family: 'Fira Mono', sans-serif;
+}
+
+
+
+/* контент хэсэг сэдэв */
+.content-section-article
+{      
+      width: 100%;
+      height: auto;
+      background-color: transparent;
+}
+.content-section-article
+.article-container
+{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      max-width: 30%;
+}
+.content-section-article
+.article-box
+{          
+      color: #333740;      
+}
+.content-section-article
+h5
+{            
+      font-size: 40px;
+      color: #333740;  
+      font-weight: 800;
+      font-family: 'Fira Mono', sans-serif;
+}
+.content-section-article
+a
+{      
+      font-size: 12px;  
+      font-weight: 900;    
+}
+.content-section-article
+a:hover
+{           
+      color: #0066CB;   
+      text-decoration: none;
+}
+.content-section-article
+h6
+{      
+      font-size: 16px;
+      color: #333740;
+      font-weight: 700;
+      line-height: auto;
+      padding-top: 10px;
+      font-family: 'Fira Mono', sans-serif;
+}
+.content-section-article
+p 
+{      
+      font-size: 14px;
+      margin-top: 20px;
+      color: #333740;
+      font-weight: 500;      
+}
+.content-section-article
+span 
+{      
+      font-size: 14px;      
+      color: #007bff;
+      font-weight: 900;      
+}
+.content-section-article
+blockquote 
+{            
+      font-size: 14px;      
+      color: #0e387a;
+      font-weight: 700;
+      position: relative;
+      margin: 0px 30px 30px;
+}
+.content-section-article
+blockquote::before 
+{      
+      content: "";
+      width: 1px;
+      height: 100%;      
+      position: absolute;
+      margin-left: -30px;
+      background-color: #bbb;
+}
+
+
+
+/* контент хэсэг тастагч */
+.content-section-horizontal
+{
+      width: 100%;
+      height: auto;      
+}
+.horizontal-container
+{     
+      margin: auto;
+      height: 150px;
+      display: flex;
+      max-width: 30%;      
+      align-items: center;
+      justify-content: center;      
+}
+.content-section-horizontal
+svg
+{
+      width: 100%;
+      height: 30px;      
+}
+.content-section-horizontal
+.horizontal-animation
+{     
+      stroke-dasharray: 0 16 180 16;      
+      animation: horizontal-animate 2400ms linear infinite;
+      -webkit-animation: horizontal-animate 2400ms linear infinite;
+}
+
+
+
+/* контент хэсэг цагилбар */
+.content-section-timeline
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-timeline.timeline-a
+{
+      padding-top: 10px;
+}
+.content-section-timeline.timeline-b
+{
+      padding-top: 40px;
+}
+.content-section-timeline
+.timeline-container
+{     
+      height: auto;     
+      margin: auto; 
+      max-width: 30%;      
+}
+.content-section-timeline
+.timeline-box
+{      
+      padding: 30px;
+      border-radius: 10px;
+      background: #fafafa;
+}
+.content-section-timeline
+h5
+{
+      font-size: 14px;      
+}
+.content-section-timeline
+.timeline-item
+{
+      margin-top: 20px;
+      position: relative;
+      border-radius: 10px;
+}
+.content-section-timeline
+ul
+{      
+      padding: 0;
+      list-style: none;
+}
+.content-section-timeline
+li 
+{     
+      margin-left: 10px;
+      position: relative;
+      padding-left: 20px;     
+      padding-bottom: 15px;
+      border-left: 1px solid #eee;
+}
+/*
+.content-section-timeline
+li:last-child 
+{
+      border: 0;
+      padding-bottom: 0;
+}
+*/
+.content-section-timeline
+li:before 
+{
+      content: "";
+      top: 3px;
+      left: -5px;
+      width: 8px;
+      height: 8px;      
+      position: absolute;
+      border-radius: 50%;
+      background-color: #2A579A;      
+}
+.content-section-timeline
+.timeline-head
+{
+      font-size: 18px;
+      font-weight: 800;
+}
+.content-section-timeline
+h6
+{
+      font-size: 12px;
+      color: #2a2839;
+      font-weight: 900;      
+      text-transform: uppercase;
+}
+.content-section-timeline
+strong
+{      
+      font-size: 12px;
+      color: #2a579a;
+      font-weight: 700;
+}
+.content-section-timeline
+p 
+{            
+      font-size: 14px;
+      color: #4f4f4f;
+      margin-top: 10px;
+      line-height: 1.5;      
+}
+.content-section-timeline
+b
+{      
+      font-size: 11px;
+}
+
+
+
+/* контент хэсэг хайрцаг */
+.content-section-box
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-box
+.box-container
+{
+      height: auto;
+      margin: auto;     
+      max-width: 30%;
+      padding-top: 30px;      
+      padding-bottom: 100px;
+      flex-direction: column;
+      justify-content: center;     
+}
+.content-section-box
+.box-item
+{      
+      width: 100%;      
+}
+.content-section-box
+h5 
+{     
+      font-size: 15px;
+      color: #333740;
+      font-weight: 800;
+      line-height: 100%;
+      margin-bottom: 60px;
+}
+.content-section-box
+h6
+{                 
+      color: #999;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 100%;      
+      margin-bottom: 24px;
+}
+.content-section-box
+ul
+{
+      margin-bottom: 50px;
+}
+.content-section-box
+ul:last-of-type 
+{
+      margin-bottom: 0;
+}
+.content-section-box
+li 
+{          
+      font-size: 14px;
+      color: #333740;
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 8px;
+      list-style-type: none;      
+}
+.content-section-box
+strong
+{      
+      font-size: 14px;
+      color: #2a579a;
+      font-weight: 700;
+
+      transition: all 0.6s ease;
+}
+.content-section-box
+strong:hover 
+{          
+      color: #999;
+      cursor: pointer;
+      margin-left: 4px;          
+}
+.content-section-box
+p
+{
+      font-size: 14px;
+      color: #4f4f4f;
+}
+.content-section-box
+.box-span
+{      
+      font-size: 14px;
+      color: #2f1c6a;
+      font-weight: 700;
+}
+
+
+
+/* контент хэсэг зүүлт */
+.content-section-foot
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-foot
+.foot-article
+{
+      
+      margin: auto;
+      max-width: 30%;
+}
+.content-section-foot
+.foot-article
+h5
+{      
+      font-size: 12px;      
+      color: #35454d;
+      font-weight: 500;
+}
+.content-section-foot
+.foot-box
+{            
+      gap: 10px;
+      margin: auto;
+      display: grid;      
+      max-width: 30%;
+      grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+}
+.content-section-foot
+.foot-item
+{   
+      width: 50px;
+      height: 50px;
+}
+.content-section-foot
+.icon-svg
+{          
+      width: 22px;
+      height: auto;
+
+      transition: ease .2s;
+}
+.content-section-foot
+.icon-svg:hover
+{
+      color: #bbb;
+      cursor: pointer;
+}
+.content-section-foot
+img
+{
+      width: 22px;
+      height: auto;
+}
+.content-section-foot
+img:hover
+{
+      opacity: 0.9;
+      cursor: pointer;
+}
+.content-section-foot
+.icon-a
+{
+      color: #f75421;
+}
+.content-section-foot
+.icon-b
+{
+      color: #2161ac;
+}
+.content-section-foot
+.icon-c
+{
+      color: #f7d800;
+}
+.content-section-foot
+.icon-d
+{
+      color: #c76494;
+}
+.content-section-foot
+.icon-e
+{
+      color: #5ed3f3;
+}
+.content-section-foot
+.icon-f
+{
+      color: #5b397b;
+}
+.content-section-foot
+.icon-g
+{
+      color: #7dd1f7;
+}
+.content-section-foot
+.icon-h
+{
+      color: #35454d;
+}
